@@ -1,4 +1,5 @@
 require "socket"
+
 class Client
   def initialize( server )
     @server = server
@@ -10,6 +11,7 @@ class Client
     @response.join
   end
 
+  #TODO listen to messages from other players 
   def listen
     @response = Thread.new do
       loop {
@@ -19,6 +21,7 @@ class Client
     end
   end
 
+  # initalial prompt to help us initialize a new player
   def send
     puts "Enter a Name:"
     @request = Thread.new do
