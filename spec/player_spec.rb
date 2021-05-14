@@ -1,6 +1,4 @@
 require 'Player'
-# can require the file or load it in the spec helper 
-# https://stackoverflow.com/questions/14501413/rspec-can-only-see-classes-in-the-root-of-my-lib-directory
 
 RSpec.describe Player do 
   player = Player.new("Sam", "Dummy Client for Now")
