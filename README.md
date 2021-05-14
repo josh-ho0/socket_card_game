@@ -24,3 +24,5 @@ Please go ahead and clone the repo.
 3) Allow players to maybe chat or have some commands that can be understood by the server? Maybe some sort of commands including "help", "show my hand", and other basic quality of life updates
 4) This does not work remotely BUT I believe there is a way with my current functionality to implement in that way (maybe related to IP)! (Need to look into this) 
 5) No current timeout function or queue functionality. This would require some more research on my part in order to implement. 
+6) Restart game functionality not implemented! This can probably be a reuseable method that clears out players hands as well as reruns the core game logic. 
+7) Implementation of more complex and robust card point value system. (I was thinking along the lines of increase the point values of J, Q, K, and A by increments of 1 and doing the same for the suits 1-4 value system)
