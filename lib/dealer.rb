@@ -2,9 +2,8 @@ require './lib/helpers/score_calculator.rb'
 
 class Dealer 
   include ScoreCalculator
-  # include some module that helps with point system 
-  attr_accessor :hand
-  attr_reader :name
+  
+  attr_reader :name, :hand
   
   def initialize
     @name = "Dealer" 
